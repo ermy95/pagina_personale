@@ -1,0 +1,78 @@
+#cerchio1, #cerchio2 {
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -100px;
+}
+
+#cerchio1 {
+  animation: spin1 1s infinite;
+}
+
+@keyframes spin1 {
+  from{transform: scale(0);
+      opacity: 0;}
+  to{transform: scale(1);
+      opacity: 0.5;}
+}
+
+#cerchio2 {
+  animation: spin2 1s infinite;
+}
+
+@keyframes spin2 {
+  from{transform: scale(1);
+      opacity: 0.5;}
+  to{transform: scale(0);
+      opacity: 0;}
+}
+
+body
+{
+  background-color: rgb(22,22,22);
+}
+
+a {
+  color: white;
+  font-family: avenir;
+  font-weight: bold;
+  font-size: 150%;
+  margin-right: 50px;
+  margin-top: 20px;
+  float: right;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 2px solid white;
+}
+
+h1 {
+  color: white;
+  font-family: avenir;
+  font-weight: bold;
+  font-size: 300%;
+  text-align: left;
+  line-height: 15px;
+}
+
+p {
+  color: white;
+  font-family: avenir;
+  font-weight: lighter;
+  font-size: 100%;
+  text-align: left;
+}
+
+#intro {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 190px;
+  margin-left: 12%;
+  width: 250px;
+}

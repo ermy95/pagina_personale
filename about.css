@@ -1,0 +1,42 @@
+body
+{
+  background-color: rgb(22,22,22);
+}
+
+p {
+  color: white;
+  font-family: avenir;
+  font-weight: lighter;
+  font-size: 150%;
+  text-align: left;
+  position: absolute;
+  top: 45%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+}
+
+img {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+
+b {
+  font-size: 250%;
+}
+
+a {
+  color: white;
+  font-family: avenir;
+  font-weight: bold;
+  font-size: 150%;
+  margin-right: 50px;
+  margin-top: 20px;
+  float: right;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 2px solid white;
+}

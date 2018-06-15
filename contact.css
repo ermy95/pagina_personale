@@ -1,0 +1,76 @@
+body {
+  background-color: rgb(22,22,22);
+}
+
+a {
+  color: white;
+  font-family: avenir;
+  font-weight: bold;
+  font-size: 150%;
+  margin-right: 50px;
+  margin-top: 20px;
+  float: right;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 2px solid white;
+}
+
+p {
+  color: white;
+  font-family: avenir;
+  font-weight: lighter;
+  font-size: 150%;
+  text-align: left;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  line-height: 300%;
+}
+
+b {
+  font-size: 250%;
+}
+
+#icona {
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 10px;
+  width: 90px;
+  height: 90px;
+  display: inline-block;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 80%;
+}
+
+#icona:hover {
+  opacity: 0.5;
+}
+
+.email {
+  left: 14%;
+}
+
+.facebook {
+  left: 24%;
+}
+
+.instagram {
+  left: 34%;
+}
+
+.linkedin {
+  left: 44%;
+}
+
+img {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

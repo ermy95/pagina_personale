@@ -1,0 +1,75 @@
+#quadrato {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  transition: 1s all;
+}
+
+.top-left {
+  top: 30vh;
+  left: 30vw;
+}
+
+.top-right {
+  top: 30vh;
+  left: 60vw;
+  border-radius: 20%;
+}
+
+.bottom-right {
+  top: 60vh;
+  left: 60vw;
+  border-radius: 50%;
+}
+
+.bottom-left {
+  top: 60vh;
+  left: 30vw;
+  border-radius: 20%;
+}
+
+body
+{
+  background-color: rgb(22,22,22);
+}
+
+a {
+  color: white;
+  font-family: avenir;
+  font-weight: bold;
+  font-size: 150%;
+  margin-right: 50px;
+  margin-top: 20px;
+  float: right;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 2px solid white;
+}
+
+h1 {
+  color: white;
+  font-family: avenir;
+  font-weight: bold;
+  font-size: 300%;
+  text-align: left;
+  line-height: 15px;
+}
+
+p {
+  color: white;
+  font-family: avenir;
+  font-weight: lighter;
+  font-size: 100%;
+  text-align: left;
+}
+
+#intro {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 190px;
+  margin-left: 12%;
+  width: 250px;
+}
